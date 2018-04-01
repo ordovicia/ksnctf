@@ -1,6 +1,8 @@
+#!/bin/bash
+
 code="$(cat code.txt)"
 
-for i in $(seq 16); do
+for ((i=0; i<16; i++)); do
     code="$(echo "$code" | base64 --decode)"
 done
 
