@@ -1,13 +1,14 @@
 CODE = 'EBG KVVV vf n fvzcyr yrggre fhofgvghgvba pvcure gung ercynprf n yrggre jvgu gur yrggre KVVV yrggref nsgre vg va gur nycunorg. EBG KVVV vf na rknzcyr bs gur Pnrfne pvcure, qrirybcrq va napvrag Ebzr. Synt vf SYNTFjmtkOWFNZdjkkNH. Vafreg na haqrefpber vzzrqvngryl nsgre SYNT.'
 
 ALPHABET_NUM = 26
-A = 65
-Z = A + ALPHABET_NUM
-a = 97
-z = a + ALPHABET_NUM
 
 
 def rotate(rot, c):
+    A = ord('A')
+    Z = A + ALPHABET_NUM - 1
+    a = ord('a')
+    z = a + ALPHABET_NUM - 1
+
     o = ord(c)
     if A <= o <= Z:
         o = (o - A + rot) % ALPHABET_NUM + A

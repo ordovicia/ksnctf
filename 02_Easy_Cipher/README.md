@@ -5,13 +5,7 @@ EBG KVVV vf n fvzcyr yrggre fhofgvghgvba pvcure gung ercynprf n yrggre jvgu gur 
 ```
 
 見るからにシーザー暗号。
-シフトする量を変えながら復号を試してみる。
+シフトする量を変えながら復号を試してみるとflagを得る。
 
 * [Rust版](https://github.com/ordovicia/ksnctf/blob/master/2_Easy_Cipher/solve.rs)
 * [Python版](https://github.com/ordovicia/ksnctf/blob/master/2_Easy_Cipher/solve.py)
-
-するとシフト量13で次の文章が得られ、flagがわかる。
-
-```
-ROT XIII is a simple letter substitution cipher that replaces a letter with the letter XIII letters after it in the alphabet. ROT XIII is an example of the Caesar cipher, developed in ancient Rome. Flag is FLAGSwzgxBJSAMqwxxAU. Insert an underscore immediately after FLAG.
-```
