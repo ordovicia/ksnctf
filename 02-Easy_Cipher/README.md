@@ -7,5 +7,5 @@ EBG KVVV vf n fvzcyr yrggre fhofgvghgvba pvcure gung ercynprf n yrggre jvgu gur 
 見るからにシーザー暗号。
 シフトする量を変えながら復号を試してみるとflagを得る。
 
-* [Rust版](https://github.com/ordovicia/ksnctf/blob/master/2_Easy_Cipher/solve.rs)
-* [Python版](https://github.com/ordovicia/ksnctf/blob/master/2_Easy_Cipher/solve.py)
+* [Rust版](https://github.com/ordovicia/ksnctf/blob/master/2-Easy_Cipher/solve.rs)
+* [Python版](https://github.com/ordovicia/ksnctf/blob/master/2-Easy_Cipher/solve.py)

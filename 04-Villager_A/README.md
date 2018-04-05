@@ -45,7 +45,7 @@ Do you want the flag?
 となり、スタックの6番目の領域に、入力した値 (`AAAA` = `0x41, 0x41, 0x41, 0x41`) が格納されていることが分かる。
 
 何を入力すれば攻撃が成功するのか考えるため、逆アセンブルして解析を進める。
-[逆アセンブルの結果](https://github.com/ordovicia/ksnctf/blob/master/4_Villager_A/dis.asm) から抜粋すると、次のように動作していそうだと想像できる。
+[逆アセンブルの結果](https://github.com/ordovicia/ksnctf/blob/master/4-Villager_A/dis.asm) から抜粋すると、次のように動作していそうだと想像できる。
 
 ```
 ...

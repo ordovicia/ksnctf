@@ -8,5 +8,5 @@ C++コードとしてではなく、この空白に意味があるはずだ。
 これはスペースとタブ（と改行）で記述する言語である。
 
 ググってみると、Whitespaceの [インタプリタ・JavaScriptへのトランスパイラ](http://ws2js.luilak.net/interpreter.html) があったので、これに食わせてみる。
-[トランスパイル結果](https://github.com/ordovicia/ksnctf/blob/master/7_Programming/converted.js) を実行するとPINの入力が求められる。
+[トランスパイル結果](https://github.com/ordovicia/ksnctf/blob/master/7-Programming/converted.js) を実行するとPINの入力が求められる。
 トランスパイル結果のコードを読んでみるとPINらしいものがなんとなく分かるので、これを入力するとflagを得る。

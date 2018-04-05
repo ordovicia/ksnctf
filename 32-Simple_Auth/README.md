@@ -9,5 +9,5 @@ PHPの `strcmp()`, `strcasecmp()` には脆弱性があるようだ。
 
 そこで、`password[]=foo` というデータをPOSTしてみると、`strcasecmp()` をバイパスしてflagを得る。
 
-* [Rust版](https://github.com/ordovicia/ksnctf/blob/master/32_Simple_Auth/solve.rs)
-* [Python版](https://github.com/ordovicia/ksnctf/blob/master/32_Simple_Auth/solve.py)
+* [Rust版](https://github.com/ordovicia/ksnctf/blob/master/32-Simple_Auth/solve.rs)
+* [Python版](https://github.com/ordovicia/ksnctf/blob/master/32-Simple_Auth/solve.py)

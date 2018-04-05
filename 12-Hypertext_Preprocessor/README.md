@@ -67,6 +67,6 @@ closedir($res_dir);
 
 するとflagが格納されていそうなファイル名が得られるので、今度は `readfile()` で読めばよい。
 
-* [Rust版](https://github.com/ordovicia/ksnctf/blob/master/12_Hypertext_Preprocessor/solve)
+* [Rust版](https://github.com/ordovicia/ksnctf/blob/master/12-Hypertext_Preprocessor/solve)
     * [cargo-script](https://github.com/DanielKeep/cargo-script) で実行できる。
-* [Python版](https://github.com/ordovicia/ksnctf/blob/master/12_Hypertext_Preprocessor/solve.py)
+* [Python版](https://github.com/ordovicia/ksnctf/blob/master/12-Hypertext_Preprocessor/solve.py)
